@@ -21,6 +21,8 @@
 ### 3. Create a dashboard according to your vision, adding the rank position, so the user could filter data and see which type of Pokemon is the most suited for him:
    Chosen mode: Normal
 
+   The Pokemon Dashboard: https://lookerstudio.google.com/reporting/fb9bfef9-f403-4e18-8924-6a261ec37f92
+
    I decided to try out Google Looker Studio as I have not used it prior to this task. For some reason it could not like a google spreadsheet to the report so I instead uploaded the csv file to the report directly. The generated csv file used in the report can be found in this repository under the name _output.csv_.
 
    It has 2 sections - _Overall Pokemon Stats_ and I also felt like it could be beneficial to let the user select 2 pokemon to compare their stats in the section called _Compating Pokemon_. _Overall Pokemon Stats_ as a default shows pokemon serial number, name and damage score all ordered in descending order based on damage score, therefore showing the most effective pokemon against all other pokemons from the given csv. The section could also be used to filter the pokemon list to find pokemon of specific types or abilities, which, once found, can be compared in the pokemon comparing section.
