@@ -16,7 +16,7 @@
    
    > (attack/defence) * multiplier
 
-   The multiplier is calculated based on the attacker and defender types (based on the type multiplier table). For dual type pokemon the _best_multiplier_ function returns the attackers type and multiplier of the best case scenario. Later the chosen attackers type is used to determine if the attack is a <ins>physical</ins> or <ins>special</ins> and then choose to use the respective atrack and damage for the formula.
+   The multiplier is calculated based on the attacker and defender types (based on the type multiplier table). For dual type pokemon the _best_multiplier_ function returns the attackers type and multiplier of the best case scenario. Later the chosen attackers type is used to determine if the attack is a <ins>physical</ins> or <ins>special</ins> (based on the assumption all physical attacks are Normal, Fighting, Flying, Ground, Rock, Bug, Ghost, and Poison, and all special attacks are Water, Grass, Fire, Ice, Electric, and Psychic) and then choose to use the respective atrack and damage for the formula.
 
 ### 3. Create a dashboard according to your vision, adding the rank position, so the user could filter data and see which type of Pokemon is the most suited for him:
    Chosen mode: Normal
